@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #000;
+  overflow: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background-color: #f3f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#header-img {
+  width: 50px;
+}
+
+#header p {
+  flex-grow: 1;
+  text-align: center;
+  background-color: #f3f2f2;
+  color: #000;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 250px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  background-color: #f3f2f2;
+}
+
+#nav-bar li {
+  margin-right: 10px;
+}
+
+#nav-bar li:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  background-color: #f3f2f2;
+}
+.img-principal {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 35px 20px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+.div-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#especificaciones {
+  margin: 20px;
+}
+
+.specs div {
+  margin-bottom: 1px;
+}
+
+.specs h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.specs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.specs li {
+  margin-bottom: 5px;
+}
+
+.specs hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+fieldset {
+  border: none;
+  padding: 50px 0;
+  text-align: center;
+}
+
+input, textarea {
+  margin: 10px;
+  background-color: #f3f2f2;
+  color: #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 10px;
+  margin: 1em auto;
+  font-size: 1.1rem;
+  background-color: #f3f2f2;
+  border-color: white;
+  min-width: 300px;
+}
